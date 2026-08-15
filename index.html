@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en" data-page="home">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111314">
+  <meta name="description" content="Northline Robotics builds autonomous aerial inspection systems for bridges, power lines, and wind turbines—turning difficult access into engineering-ready evidence.">
+  <title>Northline Robotics — Autonomous Infrastructure Inspection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,300..800&family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,300..600&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body class="site-home">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" data-header>
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="Northline Robotics home">
+        <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true">
+          <path d="M4 28V8h6l16 17V8h6v20h-6L10 11v17z"/>
+          <path class="brand-mark-accent" d="M4 31h28v2H4z"/>
+        </svg>
+        <span class="brand-type">
+          <span>Northline</span>
+          <span>Robotics</span>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="/#applications">Applications</a>
+        <a href="/pages/platform.html">Field Record</a>
+        <a href="/pages/case-studies.html">Case files</a>
+      </nav>
+
+      <a class="header-cta" href="/pages/demo.html">
+        Request field demo
+        <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3 9h11M10 5l4 4-4 4"/></svg>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-navigation">
+        <span class="sr-only" data-menu-label>Open navigation</span>
+        <span class="menu-lines" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+
+    <div class="mobile-panel" id="mobile-navigation" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <a href="/#applications"><span>01</span>Applications</a>
+        <a href="/pages/platform.html"><span>02</span>Field Record</a>
+        <a href="/pages/case-studies.html"><span>03</span>Case files</a>
+        <a href="/pages/services/bridges.html"><span>04</span>Bridge inspection</a>
+        <a href="/pages/services/power-lines.html"><span>05</span>Power-line inspection</a>
+        <a href="/pages/services/wind-turbines.html"><span>06</span>Wind inspection</a>
+      </nav>
+      <a class="button button--orange mobile-panel-cta" href="/pages/demo.html">Request field demo</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="home-hero" aria-labelledby="home-title">
+      <div class="hero-grid">
+        <p class="hero-kicker">
+          <span>Autonomous inspection systems</span>
+          <span>Critical infrastructure / 01</span>
+        </p>
+
+        <div class="hero-copy">
+          <h1 id="home-title">
+            <span class="hero-line">Evidence from</span>
+            <span class="hero-line">the <em>hard side.</em></span>
+          </h1>
+          <div class="hero-copy-lower">
+            <p>Northline sends autonomous aircraft around, beneath, and along critical assets—then returns every frame to an engineer-readable location.</p>
+            <div class="hero-actions">
+              <a class="button button--orange" href="/pages/demo.html">Bring us an asset</a>
+              <a class="text-link text-link--light" href="#system">
+                See the inspection chain
+                <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M9 2v12M5 10l4 4 4-4"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="hero-meta" aria-label="Inspection applications">
+            <span>Bridges</span>
+            <span>Transmission</span>
+            <span>Wind</span>
+          </div>
+        </div>
+
+        <figure class="flight-stage" data-flight-stage>
+          <svg class="flight-diagram" viewBox="0 0 940 760" role="img" aria-labelledby="flight-title flight-desc">
+            <title id="flight-title">Autonomous drone scanning a bridge structure</title>
+            <desc id="flight-desc">A technical line drawing shows an inspection aircraft following a measured path beneath a steel bridge deck.</desc>
+            <defs>
+              <linearGradient id="scan-fade" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#ff5a1f" stop-opacity=".5"/>
+                <stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/>
+              </linearGradient>
+              <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="5"/>
+              </filter>
+            </defs>
+
+            <g class="diagram-grid">
+              <path d="M20 120H920M20 240H920M20 360H920M20 480H920M20 600H920"/>
+              <path d="M120 40V720M300 40V720M480 40V720M660 40V720M840 40V720"/>
+            </g>
+
+            <g class="bridge-structure">
+              <path class="structure-heavy" d="M28 250H912M28 277H912"/>
+              <path d="M70 277v320M188 277v320M306 277v320M424 277v320M542 277v320M660 277v320M778 277v320M896 277v320"/>
+              <path d="M70 300l118 176-118 121M188 300l118 176-118 121M306 300l118 176-118 121M424 300l118 176-118 121M542 300l118 176-118 121M660 300l118 176-118 121M778 300l118 176-118 121"/>
+              <path d="M70 300h826M70 476h826M70 597h826"/>
+              <path class="structure-faint" d="M28 216h884M55 216v34M165 216v34M275 216v34M385 216v34M495 216v34M605 216v34M715 216v34M825 216v34"/>
+            </g>
+
+            <g class="flight-path">
+              <path d="M86 430C208 344 316 352 408 404S618 492 836 374"/>
+              <circle cx="86" cy="430" r="6"/>
+              <circle cx="408" cy="404" r="6"/>
+              <circle cx="836" cy="374" r="6"/>
+            </g>
+
+            <g class="scan-volume">
+              <path d="M514 371L438 608H642L566 371Z" fill="url(#scan-fade)"/>
+              <path class="scan-line" d="M459 544H621"/>
+            </g>
+
+            <g class="drone-object">
+              <g class="rotor rotor--left">
+                <ellipse cx="414" cy="324" rx="103" ry="13"/>
+                <circle cx="414" cy="324" r="7"/>
+              </g>
+              <g class="rotor rotor--right">
+                <ellipse cx="665" cy="324" rx="103" ry="13"/>
+                <circle cx="665" cy="324" r="7"/>
+              </g>
+              <path class="drone-arm" d="M414 324l102 30M665 324l-102 30"/>
+              <path class="drone-body" d="M482 342h115l26 39-39 42h-91l-37-42z"/>
+              <path class="drone-detail" d="M492 356h95l14 22-28 29h-70l-27-28z"/>
+              <path class="drone-arm" d="M505 412l-44 59M576 412l45 59"/>
+              <circle class="drone-sensor" cx="540" cy="424" r="21"/>
+              <path class="drone-sensor-line" d="M540 412v24M528 424h24"/>
+              <path class="drone-orange" d="M482 342h115l-11 14h-94z"/>
+            </g>
+
+            <g class="diagram-labels">
+              <path d="M564 443h150v-38"/>
+              <path d="M407 388H262v-44"/>
+              <circle cx="564" cy="443" r="3"/>
+              <circle cx="407" cy="388" r="3"/>
+            </g>
+          </svg>
+
+          <div class="diagram-note diagram-note--sensor" aria-hidden="true">
+            <span>OPTICAL AXIS</span>
+            <strong>−18.4°</strong>
+          </div>
+          <div class="diagram-note diagram-note--path" aria-hidden="true">
+            <span>ASSET FRAME</span>
+            <strong>BRG–04 / BAY 12</strong>
+          </div>
+
+          <figcaption class="flight-readout">
+            <span>Mission frame</span>
+            <strong>BRG–04 / WEST FACE</strong>
+            <span data-scan-state>Path ready · operator authority retained</span>
+          </figcaption>
+
+          <button class="scan-control" type="button" data-scan-toggle aria-pressed="false">
+            <span class="scan-control-icon" aria-hidden="true"></span>
+            <span data-scan-label>Run scan sweep</span>
+          </button>
+        </figure>
+      </div>
+    </section>
+
+    <section class="statement-section section-paper" aria-labelledby="statement-title">
+      <div class="section-shell">
+        <div class="section-marker">
+          <span>01</span>
+          <span>Useful autonomy</span>
+        </div>
+        <div class="statement-layout">
+          <h2 id="statement-title">A flight is only useful when every image can answer three questions:</h2>
+          <p class="statement-display">What am I looking at, <em>where is it,</em> and what changed?</p>
+          <p class="statement-note">Northline treats the aircraft, mission geometry, media, annotations, and engineering review as one inspection system—not a collection of disconnected tools.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="operation-section" id="system" aria-labelledby="system-title">
+      <div class="section-shell">
+        <header class="section-heading section-heading--dark">
+          <div>
+            <span class="eyebrow">The inspection chain</span>
+            <span class="section-count">02 / 05</span>
+          </div>
+          <h2 id="system-title">A field operation,<br>not a flyover.</h2>
+          <p>Each stage preserves the context needed by the next—from mission planning to engineering disposition.</p>
+        </header>
+
+        <div class="operation-layout">
+          <ol class="story-steps" data-story-list>
+            <li class="story-step is-active" data-story-step="0">
+              <span class="story-number">01</span>
+              <div>
+                <h3>Build the mission around the asset</h3>
+                <p>Drawings, corridor data, access limits, stand-off requirements, and site controls become an asset-relative path that can be reviewed before launch.</p>
+                <ul>
+                  <li>Geometry-aware routes</li>
+                  <li>Defined operator checkpoints</li>
+                </ul>
+              </div>
+            </li>
+            <li class="story-step" data-story-step="1">
+              <span class="story-number">02</span>
+              <div>
+                <h3>Capture with repeatable intent</h3>
+                <p>The aircraft holds the planned relationship between surface, sensor, and path while the field operator retains mission authority.</p>
+                <ul>
+                  <li>Consistent stand-off and angle</li>
+                  <li>Live coverage awareness</li>
+                </ul>
+              </div>
+            </li>
+            <li class="story-step" data-story-step="2">
+              <span class="story-number">03</span>
+              <div>
+                <h3>Return an engineering record</h3>
+                <p>Original media, location, reviewer state, notes, and export history remain connected so findings can be traced back to source evidence.</p>
+                <ul>
+                  <li>Asset-indexed media</li>
+                  <li>Review and handoff states</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+
+          <div class="story-visual" data-story-visual>
+            <div class="story-visual-topbar">
+              <span>Northline / Field Record</span>
+              <span data-story-progress>01 — Mission geometry</span>
+            </div>
+
+            <div class="story-frame is-active" data-story-frame="0">
+              <div class="mission-map">
+                <svg viewBox="0 0 720 500" aria-hidden="true">
+                  <path class="map-grid-line" d="M0 100H720M0 200H720M0 300H720M0 400H720M120 0V500M240 0V500M360 0V500M480 0V500M600 0V500"/>
+                  <path class="asset-line" d="M62 372C157 260 250 315 341 210S530 135 666 80"/>
+                  <path class="route-line" d="M74 419C172 309 261 361 375 246S550 184 654 131"/>
+                  <circle class="route-node" cx="74" cy="419" r="8"/>
+                  <circle class="route-node" cx="375" cy="246" r="8"/>
+                  <circle class="route-node" cx="654" cy="131" r="8"/>
+                  <path class="heading-arrow" d="M353 264l22-18-4 29"/>
+                </svg>
+                <span class="map-coordinate map-coordinate--one">PTH 01 / ENTRY</span>
+                <span class="map-coordinate map-coordinate--two">CHK 04 / CLEARANCE</span>
+                <div class="map-legend">
+                  <span><i class="legend-line legend-line--asset"></i>Asset centerline</span>
+                  <span><i class="legend-line legend-line--route"></i>Inspection path</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="story-frame" data-story-frame="1">
+              <div class="capture-frame">
+                <img loading="lazy" src="https://images.unsplash.com/photo-1609627016501-b862497c7294?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODg2MDF8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGJyaWRnZSUyMHN0cnVjdHVyZSUyMHZpZXdlZCUyMGZyb20lMjBiZWxvdyUyMHdpdGglMjBnaXJkZXJzJTJDJTIwY3Jvc3MtYnJhY2luZyUyQyUyMGFuZCUyMGluYWNjZXxlbnwxfDB8fHwxNzg2ODE2MDU2fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Steel bridge structure viewed from below with girders, cross-bracing, and inaccessible inspection surfaces visible">
+                <span class="capture-reticle" aria-hidden="true"></span>
+                <span class="coverage-strip" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+                <div class="capture-data">
+                  <span>CAM 02 / FRAME 01842</span>
+                  <strong>Bay 12 · West girder</strong>
+                  <span>Stand-off within mission envelope</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="story-frame" data-story-frame="2">
+              <div class="handoff-frame">
+                <div class="handoff-sidebar">
+                  <span>BRG–04</span>
+                  <button type="button" tabindex="-1">Deck</button>
+                  <button class="is-selected" type="button" tabindex="-1">West girder</button>
+                  <button type="button" tabindex="-1">Bearings</button>
+                  <button type="button" tabindex="-1">Piers</button>
+                </div>
+                <div class="handoff-main">
+                  <div class="handoff-heading">
+                    <div>
+                      <span>Review set / West girder</span>
+                      <strong>Evidence register</strong>
+                    </div>
+                    <span class="status-label">Review open</span>
+                  </div>
+                  <div class="evidence-row">
+                    <span>FR–1842</span><strong>Surface condition candidate</strong><span>Bay 12</span><i></i>
+                  </div>
+                  <div class="evidence-row">
+                    <span>FR–1911</span><strong>Connection detail</strong><span>Node W-14</span><i></i>
+                  </div>
+                  <div class="evidence-row">
+                    <span>FR–2038</span><strong>Bearing overview</strong><span>Pier 03</span><i></i>
+                  </div>
+                  <div class="handoff-footer">
+                    <span>Original media retained</span>
+                    <span>3 items awaiting disposition</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="story-axis" aria-hidden="true">
+              <span>ASSET X</span>
+              <span>42° 18′ 06.2″ N</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="applications-section section-paper" id="applications" aria-labelledby="applications-title">
+      <div class="section-shell">
+        <header class="section-heading section-heading--light">
+          <div>
+            <span class="eyebrow">Where Northline works</span>
+            <span class="section-count">03 / 05</span>
+          </div>
+          <h2 id="applications-title">Three asset classes.<br>Three different geometries.</h2>
+          <p>The inspection plan changes with the structure. The evidence standard does not.</p>
+        </header>
+
+        <div class="application-list">
+          <a class="application-row" href="/pages/services/bridges.html">
+            <span class="application-index">A / 01</span>
+            <div class="application-copy">
+              <span class="application-label">Bridge authorities + engineering teams</span>
+              <h3>Below deck without losing the grid.</h3>
+              <p>Asset-relative passes around girders, bearings, piers, and connection zones keep difficult-access imagery tied to the bridge model.</p>
+              <span class="row-link">Explore bridge inspection <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3 9h11M10 5l4 4-4 4"/></svg></span>
+            </div>
+            <figure class="application-media">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1598687618607-750890d692db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODg2MDF8MHwxfHNlYXJjaHwxfHxsYXJnZSUyMHN0ZWVsJTIwc3VzcGVuc2lvbiUyMGJyaWRnZSUyMHNlZW4lMjBmcm9tJTIwYmVsb3clMkMlMjBlbXBoYXNpemluZyUyMHRoZSUyMHVuZGVyc2lkZSUyQyUyMHN0cnVjdHxlbnwxfDB8fHwxNzg2ODE2MDU3fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Large steel suspension bridge seen from below, emphasizing the underside, structural bays, and difficult-access inspection areas">
+              <figcaption>Girder / bearing / substructure</figcaption>
+            </figure>
+          </a>
+
+          <a class="application-row" href="/pages/services/power-lines.html">
+            <span class="application-index">A / 02</span>
+            <div class="application-copy">
+              <span class="application-label">Electric utilities + corridor managers</span>
+              <h3>Span-level continuity across the corridor.</h3>
+              <p>Tower, conductor, insulator, and right-of-way evidence is organized by structure and span so field imagery returns in utility language.</p>
+              <span class="row-link">Explore power-line inspection <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3 9h11M10 5l4 4-4 4"/></svg></span>
+            </div>
+            <figure class="application-media">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1609102461717-0e9931927288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODg2MDF8MHwxfHNlYXJjaHwxfHxoaWdoLXZvbHRhZ2UlMjB0cmFuc21pc3Npb24lMjB0b3dlcnMlMjBjcm9zc2luZyUyMGFuJTIwb3BlbiUyMHV0aWxpdHklMjBjb3JyaWRvciUyMGJlbmVhdGglMjBhJTIwYnJvfGVufDF8MHx8fDE3ODY4MTYwNTd8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="High-voltage transmission towers crossing an open utility corridor beneath a broad overcast sky">
+              <figcaption>Tower / span / right-of-way</figcaption>
+            </figure>
+          </a>
+
+          <a class="application-row" href="/pages/services/wind-turbines.html">
+            <span class="application-index">A / 03</span>
+            <div class="application-copy">
+              <span class="application-label">Wind operators + blade engineers</span>
+              <h3>Repeatable blade passes, indexed by surface.</h3>
+              <p>Root-to-tip coverage, blade identity, face, and radial position remain attached to each frame for review and future comparison.</p>
+              <span class="row-link">Explore wind inspection <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3 9h11M10 5l4 4-4 4"/></svg></span>
+            </div>
+            <figure class="application-media">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1771556707283-d77323624099?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODg2MDF8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMHV0aWxpdHktc2NhbGUlMjB3aW5kJTIwdHVyYmluZXMlMjB2aWV3ZWQlMjBmcm9tJTIwYmVsb3clMkMlMjB3aXRoJTIwZnVsbCUyMGJsYWRlJTIwZ2VvbWV0cnklMjB2aXxlbnwxfDB8fHwxNzg2ODE2MDU4fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="White utility-scale wind turbines viewed from below, with full blade geometry visible against a pale sky">
+              <figcaption>Blade / face / radial station</figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intelligence-section" aria-labelledby="intelligence-title">
+      <div class="section-shell intelligence-layout">
+        <div class="intelligence-copy">
+          <span class="eyebrow">Northline Field Record</span>
+          <h2 id="intelligence-title">Not a folder of photos.<br><em>A field record.</em></h2>
+          <p>Inspection media stays connected to the path that created it, the asset location it describes, and the review decisions made afterward.</p>
+          <a class="button button--outline-light" href="/pages/platform.html">Explore the workspace</a>
+        </div>
+
+        <div class="record-preview" aria-label="Sample Northline Field Record interface">
+          <div class="record-preview-bar">
+            <span>NL / FR</span>
+            <span>BRG–04 / Inspection record</span>
+            <span class="record-live"><i></i> Review active</span>
+          </div>
+          <div class="record-preview-body">
+            <aside>
+              <span class="record-aside-label">Asset tree</span>
+              <strong>BRG–04</strong>
+              <ul>
+                <li><span>01</span>Deck</li>
+                <li class="is-current"><span>02</span>West girder</li>
+                <li><span>03</span>East girder</li>
+                <li><span>04</span>Substructure</li>
+              </ul>
+            </aside>
+            <div class="record-canvas">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1648804586867-2d678aa6fc69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5ODg2MDF8MHwxfHNlYXJjaHwxfHxtb25vY2hyb21lJTIwaW5zcGVjdGlvbiUyMGZyYW1lJTIwb2YlMjBzdGVlbCUyMGJyaWRnZSUyMG1lbWJlcnMlMjBiZW5lYXRoJTIwYSUyMGJyaWRnZSUyMGRlY2t8ZW58MXwwfHx8MTc4NjgxNjA1OXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Monochrome inspection frame of steel bridge members beneath a bridge deck">
+              <button class="record-pin record-pin--one" type="button" tabindex="-1" aria-hidden="true">01</button>
+              <button class="record-pin record-pin--two" type="button" tabindex="-1" aria-hidden="true">02</button>
+              <div class="record-frame-data">
+                <span>FRAME 01842</span>
+                <span>W-GIRDER / BAY 12</span>
+              </div>
+            </div>
+            <div class="record-detail">
+              <span class="record-aside-label">Finding candidate</span>
+              <span class="status-label status-label--orange">Needs review</span>
+              <h3>Surface discontinuity</h3>
+              <dl>
+                <div><dt>Location</dt><dd>Bay 12 · W-G2</dd></div>
+                <div><dt>Source</dt><dd>Frame 01842</dd></div>
+                <div><dt>State</dt><dd>Unclassified</dd></div>
+              </dl>
+              <p>Reviewer notes and disposition remain linked to the original frame.</p>
+            </div>
+          </div>
+          <div class="record-preview-footer">
+            <span>Original media retained</span>
+            <span>Asset coordinates attached</span>
+            <span>Export history visible</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="program-section section-paper" aria-labelledby="program-title">
+      <div class="section-shell">
+        <div class="section-marker">
+          <span>04</span>
+          <span>Starting a program</span>
+        </div>
+        <div class="program-intro">
+          <h2 id="program-title">Start with the asset that is hardest to inspect well.</h2>
+          <p>A Northline field demonstration is built around the operational question, evidence standard, and site constraints your team actually has.</p>
+        </div>
+        <ol class="program-steps">
+          <li>
+            <span>01</span>
+            <div>
+              <h3>Define the evidence</h3>
+              <p>Identify target components, required viewpoints, location language, and the downstream review decision.</p>
+            </div>
+          </li>
+          <li>
+            <span>02</span>
+            <div>
+              <h3>Design the mission</h3>
+              <p>Translate geometry, access, operating controls, and airspace constraints into a reviewable field plan.</p>
+            </div>
+          </li>
+          <li>
+            <span>03</span>
+            <div>
+              <h3>Run the field demonstration</h3>
+              <p>Capture a representative scope with the operator, asset owner, and engineering stakeholders aligned.</p>
+            </div>
+          </li>
+          <li>
+            <span>04</span>
+            <div>
+              <h3>Review the record</h3>
+              <p>Walk through coverage, source media, findings, and handoff requirements before defining repeatable operations.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="closing-section" aria-labelledby="closing-title">
+      <div class="closing-grid" aria-hidden="true"></div>
+      <div class="section-shell closing-inner">
+        <span class="eyebrow">Field demonstration / 05</span>
+        <h2 id="closing-title">Show us where access,<br>risk, and evidence collide.</h2>
+        <div class="closing-lower">
+          <p>Bring a bridge bay, transmission span, or blade inspection question. We’ll shape the demonstration around the decision your team needs to make.</p>
+          <a class="button button--light" href="/pages/demo.html">Request a field demo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <a class="brand brand--footer" href="/" aria-label="Northline Robotics home">
+        <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true">
+          <path d="M4 28V8h6l16 17V8h6v20h-6L10 11v17z"/>
+          <path class="brand-mark-accent" d="M4 31h28v2H4z"/>
+        </svg>
+        <span class="brand-type"><span>Northline</span><span>Robotics</span></span>
+      </a>
+      <p>Autonomous inspection systems for infrastructure that cannot afford incomplete evidence.</p>
+      <a class="footer-demo-link" href="/pages/demo.html">Request field demo <svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3 9h11M10 5l4 4-4 4"/></svg></a>
+    </div>
+    <div class="footer-grid">
+      <div>
+        <span class="footer-label">Applications</span>
+        <a href="/pages/services/bridges.html">Bridges</a>
+        <a href="/pages/services/power-lines.html">Power lines</a>
+        <a href="/pages/services/wind-turbines.html">Wind turbines</a>
+      </div>
+      <div>
+        <span class="footer-label">Explore</span>
+        <a href="/pages/platform.html">Field Record</a>
+        <a href="/pages/case-studies.html">Case files</a>
+        <a href="/pages/demo.html">Field demonstration</a>
+      </div>
+      <div class="footer-operating-note">
+        <span class="footer-label">Operating note</span>
+        <p>Every mission is planned around applicable site controls, airspace requirements, weather, and operator authority.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Northline Robotics Company</span>
+      <span>Critical infrastructure / autonomous systems / engineering data</span>
+      <a href="#main">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <noscript>
+    <div class="noscript-message">Interactive scan controls are unavailable, but all Northline services and project information remain accessible on this page.</div>
+  </noscript>
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
